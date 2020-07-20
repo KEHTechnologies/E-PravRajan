@@ -55,6 +55,32 @@ const schils = [];
 
 const cnum = [];
 var m, b;
+
+const bven=[];
+const breg=[];
+const bcity=[];
+const bstat=[];
+const bweb=[];
+const bphnum=[];
+const blab=[];
+const bmig=[];
+const bnum=[];
+const bacco=[];
+const bben=[];
+const bcont=[];
+const baddr=[];
+const bpin=[];
+const bdis=[];
+const bemail=[];
+const bexp=[];
+const bwork=[];
+const bjtype=[];
+const bsal=[];
+const bfood=[];
+const btype=[];
+const bacco=[];
+const bjosp=[];
+const bedinst=[];
 app.use(express.static("public"));
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
@@ -140,7 +166,7 @@ app.post("/register_mi.html", function(req, res) {
   sscheme.push(req.body.responce_scheme[1]);
   schils.push(req.body.responce_marriage[1]);
 
-
+  cnum.push(req.body.child);
 
 
 
