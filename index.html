@@ -1,350 +1,187 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> E - PravRajan </title>
-        <meta name="viewport" comtent="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="style.css">
-     
-        
-         
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <style>
-            .container {
-                 width: 100%;
-                height: 100%;
-            }
-
-            
-
-
-            </style>
-
-    </head>
-        
-
-    <body> 
-        
-        <header>
-                  <img src="titlebar.png" width="100%" height="100%">
-                        
-        </header>
-
-        
-        
-        <div class="topnav">
-            
-            <a class="active" href="index.html"> HOME </a>
-            <a class="passive" href="register.html">Register</a> 
-            <a class="passive" href="login.html">Login</a>
-            <a class="passive" href="about.html">About Us</a>
-            <a class="passive" href="list_mi.html">Workers demographics</a>
-            <a class="passive" href="list_co.html">Vacancies</a>
-          
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-PravRajan</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo"src="IMAGES/E-Prav Logo.svg" alt="E-PravRajan">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Worker Democracies</a>
+        <a href="#">Vacancies</a>
+        <div class="panel">
+            <a id="login" href="#">Login</a>
+            <a id="register" href="#">Register</a>
         </div>
+    </nav>
+    <img id="banner" src="images/Group 8.svg" alt="Image">
+    <h1 id="heading">ONE STOP FOR <br> BLUE 
+        COLLAR MIGRATION IN INDIA</h1>
+    <div id="box">
+     <img id="flag" src="images/Group 5.svg" alt="">
+     <h1 id="hash">#self_reliant_india</h1>
+    </div> 
 
-         
-        <hr class="featurette-divider">
+    <div id="content1" class="blocks">
+        <h1>13.9 Crore</h1>
+        <p class="description" id="d1">
+            There are approximately 13.9 crore internal 
+            in India out of which 4 crore have 
+            been impacted due to loss of jobs. This 
+            accounts to approximately 29% of the total 
+            number of migrants. This is the heartbreaking 
+             scenario of migrant workers in India.
+        </p>
+        <img src="images/Mask Group 1.svg" alt="" id="im1">
+    </div>
 
+    <div id="content2" class="blocks">
+        <h1 class="heading" id="hd2">Register With Us</h1>
+        <h1 class="sub" id="sd2">To open up Doors for opportunities</h1>
+        <p class="description" id="d2">
+            In the present situation, India is facing a 
+            slowdown in the economy. During any 
+            economic crisis, the worst hit are 
+            always the economically weaker 
+            sections like migrant workers. Register with us and open doors to opportunities. Helping you get a job is our duty.
+        </p>
+        <button class="learn" id="l2">Learn More</button>
+        <img src="images/WhatsApp Image 2020-07-19 at 9.23.22 AM.svg" id="im2" alt="">
+    </div>
 
-        <div class="container">
-        <div id="demo" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
+    <div id="content3" class="blocks">
+        <h1 class="heading" id="hd3">Register With Us</h1>
+        <h1 class="sub" id="sd3">To make your industry grow</h1>
+        <p class="description" id="d3">
+            In the present situation, many migrant workers have gone 
+            back to their villages. Employers too are facing a
+            shortage of workers. Register with us and we will provide you
+            suitable workers that match your requirements and help your industry grow.
+        </p>
+        <button class="learn" id="l3">Learn More</button>
+        <img src="images/Mask Group 3.svg" id="im3" alt="">
+    </div>
+    
+    <div id="content4" class="blocks">
+        <h1 class="heading" id="hd4">See Here For </h1>
+        <h1 class="sub" id="sd4">Vacancies Available</h1>
+        <p class="description" id="d4">
+            A complete record of various types of job profiles that industries are offering
+             along with the requirements of skill sets, salary details etc.
+        </p>
+        <button class="learn" id="l4">Learn More</button>
+        <img src="images/WhatsApp Image 2020-07-19 at 9.23.23 AM.svg" id="im4" alt="">
+    </div>
+    
+    <div id="content5" class="blocks">
+        <h1 class="heading" id="hd5">See Here For </h1>
+        <h1 class="sub" id="sd5">Workers Demographics</h1>
+        <p class="description" id="d5">
+            A complete record of various migrant workers from various parts of the
+             country in search for a job along with their personal details and skill sets.
+        </p>
+        <button class="learn" id="l5">Learn More</button>
+        <img src="images/Mask Group 6.svg" id="im5" alt="">
+    </div>
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="c1.jpg" alt="picture1of migrants" width="1100" height="500">
-                    <div class="carousel-caption">
-                        <h3>For the plight of migrants</h3>
-                        <p>We offer a safe and fool proof system 
-                            for registration for them to work</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="c2.jpg" alt="picture2of migrants" width="1100" height="500">
-                    <div class="carousel-caption">
-                        <h3>For the plight of their family</h3>
-                        <p>We also offer jobs for their family
-                            and education for their children</p>
-                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="c3.jpg" alt="picture1of industries" width="1100" height="500">
-                    <div class="carousel-caption">
-                        <h3>For the plight of industries</h3>
-                        <p>We offer a registration portal for 
-                            industries to register them and
-                            post the job offerings</p>
-                    </div>
-                </div>
+    <div id="content6" class="blocks">
+        <h1 class="heading" id="hd6">Skill Upskill <span class="hdd">Reskill</span></h1>
+        <p class="description" id="d6">
+            Development of skills is the need of the hour. If we do not respond to this challenge, we face the
+            prospect of becoming irrelevant. If, as skill professionals, we assume that our old time-served competences will
+            last a lifetime, we will find ourselves becoming candidates for redundancy. The organisations we work for equally run 
+            the risk of failing to provide the new products and services that the market requires, resulting in decline. And so, we 
+            need to learn continually as we work. This requires a skill set that we need to learn for ourselves as teachers
+            and mentors, and a skill set we need to instil into our learners for their future benefit.
+            Hence having and developing skills is important.
+        </p>
+        <button class="learn" id="l6">Learn More</button>
+        <div class="img-out"></div>
+        <div class="cover"></div>
+        <div class="img-in"><img src="images/WhatsApp Image 2020-07-19 at 9.23.25 AM.svg" id="im6" alt=""></div>
+    </div>
+
+    <div id="content7" class="blocks">
+        <div class="cons" id="con1">
+            <div class="top" id="top1">
+             <h1 class="conhead" id="chd1">Mahatma Gandhi</h1>
+             <h3 class="sconhead" id="schd1">NREGA</h3>
             </div>
-
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-
+            <img src="IMAGES/Group 14.svg" id="cm1"  alt="">
+            <p class="conpar">It aims to enhance livelihood security in rural areas by providing at least 100 days of wage 
+                employment in a financial year to every household whose adult members volunteer to do unskilled manual work.
+                One of the objectives is to improve the bargaining power of labour who often face exploitative market conditions. 
+                Several studies have found that agricultural wages have increased significantly, especially for women.
+            </p>
+            <button class="learn" id="lc1">Learn More</button>
         </div>
+        <div class="cons" id="con2">
+            <div class="top" id="top2">
+             <h1 class="conhead" id="chd2">Pradhan Mantri </h1>
+             <h3 class="sconhead" id="schd2">Jeevan Jyoti Bima Yojana</h3>
+            </div>
+            <img src="IMAGES/Group 15.svg" id="cm2"  alt="">
+            <p class="conpar">It is available to people between 18 and 50
+                 years of age with bank accounts and the amount will be automatically debited from the account. In case of 
+                 death due to any cause, the payment to the nominee will be ₹2 lakh.
+                One of the objectives of PMJJBY is that all bank account holders can avail 
+                this facility through their net-banking service facility or filling a form at the bank branch at any time of the year.
+            </p>
+            <button class="learn" id="lc2">Learn More</button>
+        </div>
+        <div class="cons" id="con3">
+            <div class="top" id="top3">
+             <h1 class="conhead" id="chd3">Pradhan Mantri </h1>
+             <h3 class="sconhead" id="schd3">Shram Yogi Maandhan</h3>
+            </div>
+            <img src="IMAGES/Group 16.svg" id="cm3"  alt="">
+            <p class="conpar">It was launched by the Ministry of Labour and Employment for
+                poor labourers in the unorganised sector from minimum 18 years of age to maximum
+                40 years. To avail the scheme, the concerned person must visit the Community
+                Service Centre.
 
-        <hr class="featurette-divider">
-
-  
-           
-        <div class="container">
-
-            <hr class="featurette-divider">
-        
-            <div class="row">
-                
-                <div class="column">
-
-                    <h2 style="color: #005792" style="text-align: center">13.9 Crore</h2>
-                    <p>There are approximately 13.9 crore internal migrants in India out of which 4 crore have been impacted due to loss of jobs. This accounts to approximately 29% of the total number of migrants. This is the heartbreaking scenario of migrant workers in India.</p>
-                </div>
-        
-                   
-
-                        <div class="column">
-                            <img src="h12.jpg" alt="Snow" style="width:100%" style="height: 100%;">
-                          </div>
-                    
-                </div>
-
-                <div class="container">
-
-                    <hr class="featurette-divider">
-                
-                    <div class="row">
-                        <div class="column">
-                          <img src="h1.jpg" alt="Snow" style="width:100%" style="height: 100%;">
-                        </div>
-                        <div class="column">
-                            <h2 class="featurette-heading"> Register With Us
-                                <span class="text-muted">To open up Doors for opportunities </span>
-                            </h2>
-                            <p class="lead">In the present situation, India is facing a slowdown in the economy. During any economic crisis, the worst hit are always the economically weaker sections like migrant workers. Register with us and open doors to opportunities. Helping you get a job is our duty.</p>
-                            
-                                <a href="register.html" class="button"> click here for more info
-                                </a>
-                            
-                        </div>
-
-        <div class="container">
-
-            <hr class="featurette-divider">
-
-
-            <div class="row">
-                <div class="column">
-                    <h2 class="featurette-heading">Register With Us
-                         <span class="text-muted"> To make your industry grow </span>
-                    </h2>
-                    <p class="lead">In the present situation, many migrant workers have gone back to their villages. Employers too are facing a shortage of workers. Register with us and we will provide you suitable workers that match your requirements and help your industry grow.</p>
-                    
-                        <a href="register.html" class="button"> click here for more info
-                        </a>
-                   
-                </div>
-                <div class="column">
-                      <img src="h4.jpg" alt="Snow" style="width:100%"  style="height: 100%;">
-                </div>
-
-        <div class="container">
-
-            <hr class="featurette-divider">
-                
-            <div class="row">
-                <div class="column">
-                    <img src="h2.jpg" alt="Snow" style="width:100%"  style="height: 100%;">
-                  </div>
-                  <div class="column">
-                      <h2 class="featurette-heading">See here
-                          <span class="text-muted"> for Vacancies Available</span>
-                      </h2>
-                      <p class="lead">A complete record of various types of job profiles that industries are offering along with the requirements of skill sets, salary details etc. </p>
-                      
-                        <a href="list_co.html" class="button"> click here for more info
-                        </a>
-                    
-                  </div>
-
-        <div class="container">
-  
-              <hr class="featurette-divider">
-  
-  
-              <div class="row">
-                  <div class="column">
-                      <h2 class="featurette-heading">See here
-                           <span class="text-muted"> Workers Demographics </span>
-                      </h2>
-                      <p class="lead">A complete record of various migrant workers from various parts of the country in search for a job along with their personal details and skill sets.</p>
-                      
-                        <a href="list_mi.html" class="button"> click here for more info
-                        </a>
-                    
-                  </div>
-                  <div class="column">
-                        <img src="h3.jpg" alt="Snow" style="width:100%"  style="height: 100%;">
-                  </div>
-          
-              <hr class="featurette-divider">
-
-
-        <div class="container">
-  
-              <hr class="featurette-divider">
-  
-  
-              <div class="row">
-            
-                  <div class="column">
-                        <img src="h6.jpg" alt="Snow" style="width:100%"  style="height: 100%;">
-                  </div>
-
-                  <div class="column">
-                    <h2 class="featurette-heading">Skill Upskill
-                         <span class="text-muted">Reskill</span>
-                    </h2>
-                    <p class="lead"> Development of skills is the need of the hour. If we do not respond to this challenge, we face the prospect of becoming irrelevant. If, as skill professionals, we assume that our old time-served competences will last a lifetime, we will find ourselves becoming candidates for redundancy. The organisations we work for equally run the risk of failing to provide the new products and services that the market requires, resulting in decline. And so, we need to learn continually as we work. This requires a skill set that we need to learn for ourselves as teachers and mentors, and a skill set we need to instil into our learners for their future benefit. Hence having and developing skills is important.  </p>
-                    
-                      <a href="https://eskillindia.org/" class="button"> click here for more info
-                      </a>
-                  
-                </div>
-          
-              <hr class="featurette-divider">
-
-
-        <div class="container">
-  
-                <hr class="featurette-divider">
-    
-    
-                <div class="row">
-                    <div class="column1">
-                        <figure>
-                            <img src="mgnrega.png" alt="mnregalogo" style="width:100%"  style="height: 100%;" >
-                            <figcaption><h2 class="featurette-heading">Mahatma Gandhi
-                                <span class="text-muted">NREGA</span>
-                           </h2>
-                           <p class="lead">It aims to enhance livelihood security in rural areas by providing at least 100 days of wage employment in a financial year to every household whose adult members volunteer to do unskilled manual work.
-
-                            </p>
-
-                            <p class="lead">One of the objectives is to improve the bargaining power of labour who often face exploitative market conditions. Several studies have found that agricultural wages have increased significantly, especially for women.</p>
-                           
-                                
-                                    <a href="https://nrega.nic.in/netnrega/home.aspx" class="button"> click here for more info
-                                    </a>
-                               
-                            </figcaption>
-                        
-                        </figure>
-                    </div>
-                    <div class="column1">
-                        <figure>
-                            <img src="pmjeevan.png" alt="pmjeevanlogo" style="width:100%">
-                            <figcaption>
-                                <h2 class="featurette-heading">Pradhan Mantri 
-                                    <span class="text-muted">Jeevan Jyoti Bima Yojana</span>
-                               </h2>
-                               <p class="lead">It is available to people between 18 and 50 years of age with bank accounts and the amount will be automatically debited from the account. In case of death due to any cause, the payment to the nominee will be ₹2 lakh.
-
-                            </p>
-
-                            <p class="lead">One of the objectives of PMJJBY is that all bank account holders can avail this facility through their net-banking service facility or filling a form at the bank branch at any time of the year.</p>
-                           
-                                    <a href="https://financialservices.gov.in/insurance-divisions/Government-Sponsored-Socially-Oriented-Insurance-Schemes/Pradhan-Mantri-Jeevan-Jyoti-Bima-Yojana(PMJJBY)" class="button"> click here for more info
-                                    </a>
-                                
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="column1">
-                        <figure>
-                            <img src="pm1.jpg" alt="Snow" style="width:100%">
-                            <figcaption>
-                                <h2 class="featurette-heading">Pradhan Mantri 
-                                    <span class="text-muted">Shram Yogi Maandhan </span>
-                                </h2>
-                                <p class="lead">It was launched by the Ministry of Labour and Employment for poor labourers in the unorganised sector from minimum 18 years of age to maximum 40 years. To avail the scheme, the concerned person must visit the Community Service Centre.
-
-                                </p>
-    
-                                <p class="lead">One of the objectives of this scheme is to ensure social welfare of migrant workers. Furthermore, the spouse of the registered person spouse has the option to continue the scheme.</p>
-                               
-                             
-                                <a href="https://maandhan.in/shramyogi" class="button"> click here for more info
-                                </a>
-                            
-                            </figcaption>
-                        </figure>
-                    </div>
-                        
-                </div>
-            
-                <hr class="featurette-divider">
-
-                        
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                One of the objectives of this scheme is to ensure social 
+                welfare of migrant workers. Furthermore, the spouse of the 
+                registered person spouse has the option to continue the scheme.
+            </p>
+            <button class="learn" id="lc3">Learn More</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="fsub" id="fsub1">
+            <h3 class="fh">For Enquiries</h3>
+            <p>Contact us at <br>
+                <a href="" class="flink">info.kehtech@gmail.com</a>
+                <br><br>Call us at
+                +91-9342412841
+            </p>
+        </div>
+        <div class="fsub" id="fsub2">
+            <h3 class="fh">Social links</h3>
+            <ul class="flist">
+            <li><a href="" class="flink">Instagram</a></li><br>
+            <li><a href="" class="flink">LinkedIn</a></li><br>
+            <li><a href="" class="flink">Twitter</a></li><br>
+            </ul>
+        </div>
+        <p class="CR">© Copyrights. All rights reserved.KEH Technolabs</p>
+        <hr class="line">
+    </footer>
 
 
 
-                        <footer class="site-footer">
-                            <div class="container">
-                            <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                            <h6>&#169; Copyrights. All rights reserved.KEH Technolabs</h6>
-                           
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                            <h6>For enquiries</h6>
-                            <p><span class="text-muted">Contact us at </span><br><u><a href = "mailto: info.kehtech@gmail.com"> info.kehtech@gmail.com </a></u>
-                            <br><span class="text-muted">Call us at </span><br>
-                            <a href="tel: +91-9342412841">+91-9342412841</a></p>
-                            
-                            </div>
-                            <div class="col-xs-6 col-md-3">
-                            <h6>Social links</h6>
-                            <ul>
-                            <li><a href="https://www.instagram.com/epravrajan"><i class="fab fa-instagram"></i>Instagram</a></li>
-                            <li><a href="https://www.linkedin.com/company/keh-technologies"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-                            <li><a href="https://twitter.com/pravrajan"><i class="fab fa-twitter"></i>Twitter</a></li>
-                            </ul>
-                            </div>
-                            </div>
-                            </div>
-                            </footer>
-               
-
-       
 
 
 
-    </body>
+
+
+
  
-
+</body>
 </html>
